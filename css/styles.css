@@ -1,4 +1,177 @@
 @charset "utf-8";
-body {
-	background-color: #f00;
+/* 全局样式 */
+html { font-size: 62.5%; }
+
+body, h1, h3, h4, p, ul {
+	margin: 0;
 }
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+body {
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
+	font-size: 1.4rem;
+	/*background-color: #ebebeb;*/
+}
+
+a {
+	text-decoration: none;
+	color: #27A2E2;
+}
+
+a:hover { color:#f60; }
+
+.clearfix {
+	overflow: hidden;
+	_zoom:1;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+/* 页头 */
+.header { 
+	margin-bottom: 0; 
+	background: none;
+	border: none;
+}
+
+.header h1 a {
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-image: url(../images/logo.gif);
+	text-indent: -9999px;
+}
+
+.header li>a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar {position: relative;}
+
+#navbar a {
+	color: #27A2E2;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+#navbar a:hover {
+	color: #f60;
+}
+
+.header .jobs {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.header #navbar .jobs a {
+	color: #666;
+}
+.header #navbar .jobs a:hover {
+	color: #f60;
+}
+
+/* banner */
+.banner img {
+	width: 100%;
+}
+
+/* intro */
+.intro { 
+	text-align: center; 
+	color: #27A2E2;
+}
+
+.intro>div>div {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.intro h3 {
+	font-size: 1.8rem;
+}
+
+.intro img { margin-bottom: 15px; }
+.intro p { color: #999; }
+
+/* server */
+.server {
+	text-align: center;
+	color: #fff;
+}
+
+.server>div:first-child {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #27A2E2;
+}
+
+.server .row>div {
+	padding-left: 0;
+	padding-right: 0;
+}
+.server img {
+	width: 100%;
+}
+.server p {
+	background-color: #27A2E2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.server a { 
+	color: #fff; 
+	text-decoration: none;
+}
+.server a:hover { color: #f60; }
+
+/* convenient */
+.convenient {
+	text-align: center;
+	color: #27A2E2;
+}
+
+.convenient>div:first-child {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.convenient img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* footer */
+.footer {
+	background-color: #27A2E2;
+	color: #fff;
+	padding: 40px 60px;
+	margin-top: 40px;
+}
+
+.footer h4 { 
+	margin-bottom: 20px; 
+}
+
+.footer p {
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	.header .jobs {
+		position: static;
+	}
+	.header #navbar .jobs a {
+		color: #27A2E2;
+	}
+}
+
