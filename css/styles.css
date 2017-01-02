@@ -11,14 +11,11 @@ ul {
 	list-style: none;
 }
 
-img {
-	border: none;
-}
+img { border: none; }
 
 body {
 	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
 	font-size: 1.4rem;
-	/*background-color: #ebebeb;*/
 }
 
 a {
@@ -33,9 +30,7 @@ a:hover { color:#f60; }
 	_zoom:1;
 }
 
-h3 {
-	font-size: 3rem;
-}
+h3 { font-size: 3rem; }
 
 /* 页头 */
 .header { 
@@ -57,16 +52,14 @@ h3 {
 	padding-bottom: 20px;
 }
 
-#navbar {position: relative;}
+#navbar { position: relative;}
 
 #navbar a {
 	color: #27A2E2;
 	font-size: 1.6rem;
 	font-weight: bold;
 }
-#navbar a:hover {
-	color: #f60;
-}
+#navbar a:hover { color: #f60; }
 
 .header .jobs {
 	position: absolute;
@@ -74,17 +67,11 @@ h3 {
 	right: 0;
 }
 
-.header #navbar .jobs a {
-	color: #666;
-}
-.header #navbar .jobs a:hover {
-	color: #f60;
-}
+.header #navbar .jobs a { color: #666; }
+.header #navbar .jobs a:hover { color: #f60; }
 
 /* banner */
-.banner img {
-	width: 100%;
-}
+.banner img { width: 100%; }
 
 /* intro */
 .intro { 
@@ -97,9 +84,7 @@ h3 {
 	margin-bottom: 50px;
 }
 
-.intro h3 {
-	font-size: 1.8rem;
-}
+.intro h3 { font-size: 1.8rem; }
 
 .intro img { margin-bottom: 15px; }
 .intro p { color: #999; }
@@ -120,9 +105,7 @@ h3 {
 	padding-left: 0;
 	padding-right: 0;
 }
-.server img {
-	width: 100%;
-}
+.server img { width: 100%; }
 .server p {
 	background-color: #27A2E2;
 	padding-top: 10px;
@@ -158,20 +141,12 @@ h3 {
 	margin-top: 40px;
 }
 
-.footer h4 { 
-	margin-bottom: 20px; 
-}
+.footer h4 { margin-bottom: 20px; }
 
-.footer p {
-	margin-bottom: 5px;
-}
+.footer p { margin-bottom: 5px; }
 
 @media screen and (max-width: 768px) {
-	.header .jobs {
-		position: static;
-	}
-	.header #navbar .jobs a {
-		color: #27A2E2;
-	}
+	.header .jobs { position: static; }
+	.header #navbar .jobs a { color: #27A2E2; }
 }
 
